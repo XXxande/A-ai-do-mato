@@ -1,0 +1,287 @@
+body {
+    width: 1200px;
+    height: 700px;
+}
+
+.logo {
+    position: absolute;
+}
+
+.menu {
+    display: block;
+    color: #672C96;
+}
+
+nav {
+    display: block;
+    text-align: right;
+    margin-right: -60px;
+    position: relative;
+}
+
+nav > a {
+    color: #e716c4;
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: 'Wellfleet', monospace;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+nav > a:hover {
+    color: #672C96;
+    
+}
+
+h1 {
+    font-family: 'Wellfleet', monospace;
+    font-size: 65px;
+    margin-top: 175px;
+    text-align: center;
+    color: #e716c4;
+    position: relative;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.slogan {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #e716c4;
+    position: relative;
+    text-align: center;
+    margin-top: -30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.localidade {
+    font-family: 'Josefin Slab', serif;
+    color: #e716c4;
+    position: relative;
+    text-align: end;
+    margin-top: 120px;
+    margin-right: -60px;
+}
+
+.fundo-do-cabecalho {
+    width: 1300px;
+    height: 550px;
+    align-items: center;
+    margin-top: -50px;
+    opacity: 65%;
+    position: absolute;
+}
+
+.topo {
+    width: 1300px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    color: #672C96;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+li {
+    display: block;
+    font-family: 'Josefin Slab', serif;
+    padding: 15px;
+    font-size: 20px;
+}
+
+h3 {
+    color: #e716c4;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.confimacao {
+    position: absolute;
+    width: 30px;
+    margin: 11px;
+    margin-left: -150px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: 'Wellfleet', monospace;
+    background-color: #252496;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.conteiner {
+    background-color: #963385;
+    width: 700px;
+    height: 120px;
+    margin: auto;
+    padding-top: 45px;
+    border-radius: 10px;
+}
+
+.primeira-parte {
+    text-align: right;
+    background-color: #eeeeee;
+    width: 680px;
+    height: 300px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.ban-para {
+    position: absolute;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-left: -310px;
+}
+
+.primeira-parte > h2 {
+    font-family: 'Josefin Slab', serif;
+    color: #e716c4;
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 85px;
+}
+
+.primeira-parte > p {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: #672C96;
+    padding-left: 13px;
+    text-align: justify;
+}
+
+.segunda-parte {
+    margin-top: 15px;
+    background-color: #eeee;
+    width: 680px;
+    height: 300px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.selo-qual {
+    margin-top: 50px;
+}
+
+.segunda-parte > h2 {
+    font-family: 'Josefin Slab', serif;
+    color: #e716c4;
+    text-align: justify;
+    padding-left: 350px;
+    padding-bottom: -180px;
+    margin-top: -140px;
+}
+
+.segunda-parte > p {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    position: absolute;
+    color: #672C96;
+    text-align: justify;
+    padding-left: 260px;
+    margin-top: -5px;
+}
+
+.terceira-parte {
+    text-align: right;
+    background-color: #eee;
+    width: 650px;
+    height: 300px;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.ban-brasil {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.terceira-parte > h2 {
+    font-family: 'Josefin Slab', serif;
+    color: #e716c4;
+    text-align: justify;
+    margin-top: -150px;
+    margin-left: 70px;
+}
+
+.terceira-parte > p {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: #672C96;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.conteiner-2 {
+    background-color: #963385;
+    width: 700px;
+    height: 130px;
+    margin: auto;
+    padding-top: 45px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.conteiner-2 > h2 {
+    text-align: center;
+    color: #ffff;
+    margin-top: -35px;
+}
+
+.conteiner-2 > p {
+    text-align: center;
+    color: #eee;
+}
+
+.comeco-rodape {
+    margin-top: 15px;
+    width: 1300px;
+    height: 700px;
+    background-color: #963385;
+    text-align: center;
+    margin-left: -5px;
+    position: absolute;
+}
+
+.comeco-rodape > p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #eee;
+}
+
+.logo-rodape {
+    margin-top: 30px;
+}
+
+.informacoes-1 {
+    position: absolute;
+    color: #eee;
+    margin-top: 350px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.informacoes-2 {
+    position: absolute;
+    color: #eee;
+    margin-top: 350px;
+    margin-left: 545px;
+    text-align: center;
+}
+
+.informacoes-3 {
+    position: absolute;
+    color: #eee;
+    margin-top: 350px;
+    margin-left: 1000px;
+    text-align: center;
+}
