@@ -1,42 +1,54 @@
 body {
-    width: 1200px;
-    height: 700px;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
     position: absolute;
 }
 
-.menu {
-    display: block;
-    color: #672C96;
+.conteiner-1 {
+    height: 70px;
+    background-color: #662c96c7;
 }
 
 nav {
-    display: block;
-    text-align: right;
-    margin-right: -60px;
-    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav > a {
     color: #e716c4;
     text-decoration: none;
-    padding-right: 30px;
     font-family: 'Wellfleet', monospace;
     font-weight: 600;
     font-size: 22px;
 }
 
 nav > a:hover {
-    color: #672C96;
-    
+    color: #fcfcfc;
+}
+
+.texto-de-apresentacao {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
 }
 
 h1 {
     font-family: 'Wellfleet', monospace;
     font-size: 65px;
-    margin-top: 175px;
     text-align: center;
     color: #e716c4;
     position: relative;
@@ -51,7 +63,7 @@ h1 {
     color: #e716c4;
     position: relative;
     text-align: center;
-    margin-top: -30px;
+    margin: auto;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
 }
@@ -59,29 +71,36 @@ h1 {
 .localidade {
     font-family: 'Josefin Slab', serif;
     color: #e716c4;
+    font-size: 20px;
     position: relative;
     text-align: end;
     margin-top: 120px;
-    margin-right: -60px;
+    margin-right: -450px;
 }
 
-.fundo-do-cabecalho {
-    width: 1300px;
-    height: 550px;
-    align-items: center;
-    margin-top: -50px;
-    opacity: 65%;
-    position: absolute;
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 350px;
 }
+
+/* .fundo-do-cabecalho {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+} */
 
 .topo {
-    width: 1300px;
+    width: 100%;
     margin-top: 100px;
     text-align: center;
     font-weight: 700;
     color: #672C96;
     background-color: #eee;
     border-radius: 10px;
+
 }
 
 li {
@@ -117,7 +136,7 @@ button {
     padding: 20px;
 }
 
-.conteiner {
+.conteiner-2 {
     background-color: #963385;
     width: 700px;
     height: 120px;
@@ -131,8 +150,10 @@ button {
     background-color: #eeeeee;
     width: 680px;
     height: 300px;
-    margin-left: auto;
+    margin-left: 600px;
     border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    
 }
 
 .ban-para {
@@ -163,8 +184,9 @@ button {
     background-color: #eeee;
     width: 680px;
     height: 300px;
-    margin-right: auto;
+    margin-left: 15px;
     border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 .selo-qual {
@@ -193,11 +215,12 @@ button {
 .terceira-parte {
     text-align: right;
     background-color: #eee;
-    width: 650px;
+    width: 680px;
     height: 300px;
-    margin-left: auto;
+    margin-left: 600px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 .ban-brasil {
@@ -221,7 +244,7 @@ button {
     margin-left: 30px;
 }
 
-.conteiner-2 {
+.conteiner-3 {
     background-color: #963385;
     width: 700px;
     height: 130px;
@@ -231,21 +254,21 @@ button {
     margin-top: 10px;
 }
 
-.conteiner-2 > h2 {
+.conteiner-3 > h2 {
     text-align: center;
     color: #ffff;
     margin-top: -35px;
 }
 
-.conteiner-2 > p {
+.conteiner-3 > p {
     text-align: center;
     color: #eee;
 }
 
 .comeco-rodape {
     margin-top: 15px;
-    width: 1300px;
-    height: 700px;
+    width: 100%;
+    height: 500px;
     background-color: #963385;
     text-align: center;
     margin-left: -5px;
